@@ -1,0 +1,173 @@
+export const foodData = [
+  {
+    id: 1,
+    name: "Classic Beef Burger",
+    description:
+      "Juicy grilled beef patty with lettuce, tomato, cheese, and signature sauce.",
+    price: 8.99,
+    category: "Burger",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+  },
+  {
+    id: 2,
+    name: "Margherita Pizza",
+    description:
+      "Traditional pizza topped with mozzarella cheese, fresh basil, and tomato sauce.",
+    price: 12.5,
+    category: "Pizza",
+    image: "https://images.unsplash.com/photo-1604382355076-af4b0eb60143",
+  },
+  {
+    id: 3,
+    name: "Chicken Biryani",
+    description:
+      "Aromatic basmati rice cooked with spicy chicken and traditional herbs.",
+    price: 10.99,
+    category: "Rice",
+    image: "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?q=80&w=1188&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 4,
+    name: "Grilled Chicken Sandwich",
+    description:
+      "Tender grilled chicken breast with fresh veggies and mayo in toasted bread.",
+    price: 7.75,
+    category: "Sandwich",
+    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af",
+  },
+  {
+    id: 5,
+    name: "Spaghetti Carbonara",
+    description:
+      "Creamy pasta with crispy bacon, parmesan cheese, and black pepper.",
+    price: 11.25,
+    category: "Pasta",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9",
+  },
+  {
+    id: 6,
+    name: "Caesar Salad",
+    description:
+      "Fresh romaine lettuce with grilled chicken, croutons, parmesan, and Caesar dressing.",
+    price: 6.99,
+    category: "Salad",
+    image: "https://images.unsplash.com/photo-1546793665-c74683f339c1",
+  },
+  {
+    id: 7,
+    name: "BBQ Chicken Wings",
+    description: "Crispy chicken wings coated in smoky barbecue sauce.",
+    price: 9.5,
+    category: "Appetizer",
+    image: "https://images.unsplash.com/photo-1527477396000-e27163b481c2",
+  },
+  {
+    id: 8,
+    name: "Sushi Platter",
+    description: "A mix of fresh salmon, tuna, and veggie sushi rolls.",
+    price: 15.99,
+    category: "Japanese",
+    image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+  },
+  {
+    id: 9,
+    name: "Tandoori Chicken",
+    description:
+      "Traditional Indian-style grilled chicken marinated in yogurt and spices.",
+    price: 13.25,
+    category: "Indian",
+    image: "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91",
+  },
+  {
+    id: 10,
+    name: "French Fries",
+    description: "Golden crispy potato fries served with ketchup.",
+    price: 3.99,
+    category: "Sides",
+    image: "https://images.unsplash.com/photo-1576107232684-1279f390859f",
+  },
+  {
+    id: 11,
+    name: "Chocolate Brownie",
+    description: "Rich chocolate brownie with a soft gooey center.",
+    price: 4.5,
+    category: "Dessert",
+    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+  },
+  {
+    id: 12,
+    name: "Chicken Shawarma",
+    description:
+      "Middle Eastern wrap with seasoned chicken, garlic sauce, and vegetables.",
+    price: 8.25,
+    category: "Wrap",
+    image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+  },
+  {
+    id: 13,
+    name: "Pad Thai",
+    description: "Thai stir-fried noodles with shrimp, peanuts, egg, and lime.",
+    price: 11.75,
+    category: "Thai",
+    image: "https://images.unsplash.com/photo-1559314809-0d155014e29e",
+  },
+  {
+    id: 14,
+    name: "Fish Tacos",
+    description:
+      "Soft tacos filled with crispy fish, cabbage slaw, and creamy sauce.",
+    price: 9.99,
+    category: "Mexican",
+    image: "https://images.unsplash.com/photo-1660180750968-4fbc84789a96?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 15,
+    name: "Cheese Omelette",
+    description: "Fluffy omelette filled with melted cheddar cheese.",
+    price: 5.99,
+    category: "Breakfast",
+    image: "https://images.unsplash.com/photo-1510693206972-df098062cb71",
+  },
+  {
+    id: 16,
+    name: "Mango Smoothie",
+    description: "Refreshing mango smoothie made with fresh fruit and yogurt.",
+    price: 4.99,
+    category: "Drinks",
+    image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4",
+  },
+  {
+    id: 17,
+    name: "Pepperoni Pizza",
+    description:
+      "Classic pizza loaded with pepperoni slices and mozzarella cheese.",
+    price: 13.5,
+    category: "Pizza",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+  },
+  {
+    id: 18,
+    name: "Chicken Nuggets",
+    description: "Crispy bite-sized chicken nuggets served with dipping sauce.",
+    price: 6.49,
+    category: "Fast Food",
+    image: "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 19,
+    name: "Ice Cream Sundae",
+    description: "Vanilla ice cream topped with chocolate syrup and nuts.",
+    price: 5.25,
+    category: "Dessert",
+    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
+  },
+  {
+    id: 20,
+    name: "Beef Steak",
+    description:
+      "Grilled tender beef steak served with mashed potatoes and vegetables.",
+    price: 18.99,
+    category: "Main Course",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947",
+  },
+];
